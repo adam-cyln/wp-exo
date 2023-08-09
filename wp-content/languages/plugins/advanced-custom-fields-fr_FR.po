@@ -2,14 +2,87 @@
 # This file is distributed under the same license as the Plugins - Advanced Custom Fields (ACF) - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-06-17 22:02:39+0000\n"
+"PO-Revision-Date: 2023-07-25 20:21:20+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: GlotPress/4.0.0-alpha.4\n"
+"X-Generator: GlotPress/4.0.0-alpha.6\n"
 "Language: fr\n"
 "Project-Id-Version: Plugins - Advanced Custom Fields (ACF) - Stable (latest release)\n"
+
+#: includes/admin/views/global/navigation.php:141
+msgid "WP Engine logo"
+msgstr "Logo WP Engine"
+
+#: includes/admin/views/acf-taxonomy/basic-settings.php:42
+msgid "Lower case letters, underscores and dashes only, Max 32 characters."
+msgstr "Lettres minuscules, tirets hauts et tirets bas uniquement. Maximum 32 caractères."
+
+#: includes/admin/views/acf-field-group/pro-features.php:59
+msgid "More Tools from WP Engine"
+msgstr "Autres outils de WP Engine"
+
+#: includes/admin/views/acf-taxonomy/advanced-settings.php:1132
+msgid "The capability name for assigning terms of this taxonomy."
+msgstr "Le nom de la permission pour assigner les termes de cette taxonomie."
+
+#: includes/admin/views/acf-taxonomy/advanced-settings.php:1115
+msgid "The capability name for deleting terms of this taxonomy."
+msgstr "Le nom de la permission pour supprimer les termes de cette taxonomie."
+
+#: includes/admin/views/acf-taxonomy/advanced-settings.php:1081
+msgid "The capability name for managing terms of this taxonomy."
+msgstr "Le nom de la permission pour gérer les termes de cette taxonomie."
+
+#: includes/admin/views/acf-taxonomy/advanced-settings.php:1098
+msgid "The capability name for editing terms of this taxonomy."
+msgstr "Le nom de la permission pour modifier les termes de cette taxonomie."
+
+#: includes/admin/views/acf-field-group/pro-features.php:15
+msgid "Learn More"
+msgstr "En Savoir Plus"
+
+#: includes/admin/admin.php:238
+msgid "from"
+msgstr "de"
+
+#. translators: %s - WP Engine logo
+#: includes/admin/views/acf-field-group/pro-features.php:54
+msgid "Built for those that build with WordPress, by the team at %s"
+msgstr "Conçu pour ceux qui construisent avec WordPress, par l’équipe %s"
+
+#: includes/admin/views/acf-field-group/pro-features.php:16
+msgid "View Pricing & Upgrade"
+msgstr "Voir les tarifs & mettre à niveau"
+
+#: includes/admin/views/acf-taxonomy/advanced-settings.php:1131
+msgid "Assign Terms Capability"
+msgstr "Permission d’assigner les termes"
+
+#: includes/admin/views/acf-taxonomy/advanced-settings.php:1114
+msgid "Delete Terms Capability"
+msgstr "Permission de supprimer les termes"
+
+#: includes/admin/views/acf-taxonomy/advanced-settings.php:1097
+msgid "Edit Terms Capability"
+msgstr "Permission de modifier les termes"
+
+#: includes/admin/views/acf-taxonomy/advanced-settings.php:1080
+msgid "Manage Terms Capability"
+msgstr "Permission de gérer les termes"
+
+#: includes/admin/views/acf-post-type/advanced-settings.php:866
+msgid "Sets whether posts should be excluded from search results and taxonomy archive pages."
+msgstr "Définit si les publications doivent être exclues des résultats de recherche et des pages d’archive de taxonomie."
+
+#: includes/admin/views/acf-field-group/pro-features.php:2
+msgid "Unlock Advanced Features and Build Even More with ACF PRO"
+msgstr "Débloquer les fonctionnalités avancées et aller encore plus loin avec ACF PRO"
+
+#: includes/admin/views/acf-field-group/pro-features.php:13
+msgid "Speed up your workflow and develop better websites with features like ACF Blocks and Options Pages, and sophisticated field types like Repeater, Flexible Content, Clone, and Gallery."
+msgstr "Accélérez votre productivité et développez de meilleurs sites avec des fonctionnalités comme les blocs ACF et les pages d’options, ainsi que des champs avancés comme répéteur, contenu flexible, clones et galerie."
 
 #. translators: %s - singular label of post type/taxonomy, i.e. "Movie"/"Genre"
 #: includes/admin/views/global/form-top.php:17
@@ -85,10 +158,6 @@ msgstr "Nouvelle taxonomie"
 msgid "Edit Taxonomy"
 msgstr "Modifier la taxonomie"
 
-#: includes/post-types/class-acf-taxonomy.php:93
-msgid "Add New Taxonomy"
-msgstr "Ajout une  nouvelle taxinomie"
-
 #: includes/post-types/class-acf-post-type.php:99
 msgid "No Post Types found in Trash"
 msgstr "Aucun type de publication trouvé dans la corbeille"
@@ -130,6 +199,10 @@ msgstr "Éditeur WYSIWYG"
 #: includes/fields/class-acf-field-url.php:25
 msgid "URL"
 msgstr "URL"
+
+#: includes/fields/class-acf-field-textarea.php:26
+msgid "A basic textarea input for storing paragraphs of text."
+msgstr "Une entrée de zone de texte de base pour stocker des paragraphes de texte."
 
 #: includes/fields/class-acf-field-select.php:27
 msgid "A dropdown list with a selection of choices that you specify."
@@ -248,6 +321,22 @@ msgstr "Une saisie de texte spécialement conçue pour stocker des adresses web.
 #: includes/fields/class-acf-field-true_false.php:27
 msgid "A toggle that allows you to pick a value of 1 or 0 (on or off, true or false, etc). Can be presented as a stylized switch or checkbox."
 msgstr "Une permutation qui vous permet de choisir une valeur de 1 ou 0 (actif ou inactif, vrai ou faux, etc.). Peut être présenté sous la forme de commutateur stylisé ou de case à cocher."
+
+#: includes/post-types/class-acf-taxonomy.php:247
+msgid "The taxonomy key must be under 32 characters."
+msgstr "La clé de taxonomie doit comporter moins de 32 caractères."
+
+#: includes/post-types/class-acf-taxonomy.php:93
+msgid "Add New Taxonomy"
+msgstr "Ajouter une nouvelle taxonomie"
+
+#: includes/fields/class-acf-field-post_object.php:27
+msgid "An interactive and customizable UI for picking one or many posts, pages or post type items with the option to search. "
+msgstr "Une interface utilisateur interactive et personnalisable pour choisir un ou plusieurs articles, pages ou éléments de type publication avec la possibilité de rechercher."
+
+#: includes/fields/class-acf-field-time_picker.php:27
+msgid "An interactive UI for picking a time. The time format can be customized using the field settings."
+msgstr "Une interface utilisateur interactive pour choisir une heure. Le format de retour de date peut être personnalisé à l’aide des réglages du champ."
 
 #: includes/fields.php:355
 msgid "Advanced"
@@ -405,6 +494,10 @@ msgstr "Séparer les étiquettes par des virgules"
 #: includes/admin/views/acf-taxonomy/advanced-settings.php:386
 msgid "Separate Items With Commas"
 msgstr "Séparer les éléments par des virgules"
+
+#: includes/admin/views/acf-taxonomy/advanced-settings.php:362
+msgid "Popular Tags"
+msgstr "Étiquettes populaires"
 
 #: includes/admin/views/acf-taxonomy/advanced-settings.php:360
 msgid "Popular Items"
@@ -566,6 +659,11 @@ msgstr "Variable de requête personnalisée"
 msgid "Query Variable Support"
 msgstr "Prise en charge des variables de requête"
 
+#: includes/admin/views/acf-post-type/advanced-settings.php:1121
+#: includes/admin/views/acf-taxonomy/advanced-settings.php:998
+msgid "Publicly Queryable"
+msgstr "Publiquement interrogeable"
+
 #: includes/admin/views/acf-post-type/advanced-settings.php:1086
 msgid "Has an item archive that can be customized with an archive template file in your theme."
 msgstr "Possède une archive d’élément qui peut être personnalisée avec un fichier de modèle d’archive dans votre thème."
@@ -581,6 +679,10 @@ msgstr "Pagination"
 #: includes/admin/views/acf-post-type/advanced-settings.php:1046
 msgid "Feed URL"
 msgstr "URL du flux"
+
+#: includes/admin/views/acf-post-type/advanced-settings.php:1008
+msgid "Customize the slug used in the URL."
+msgstr "Personnalisez le slug utilisé dans l’URL."
 
 #: includes/admin/views/acf-post-type/advanced-settings.php:981
 #: includes/admin/views/acf-taxonomy/advanced-settings.php:910
@@ -600,9 +702,17 @@ msgstr "Exportable"
 msgid "Optionally provide a plural to be used in capabilities."
 msgstr "Fournissez éventuellement un pluriel à utiliser dans les fonctionnalités."
 
+#: includes/admin/views/acf-post-type/advanced-settings.php:914
+msgid "Plural Capability Name"
+msgstr "Nom de la capacité au pluriel"
+
 #: includes/admin/views/acf-post-type/advanced-settings.php:865
 msgid "Exclude From Search"
 msgstr "Exclure de la recherche"
+
+#: includes/admin/views/acf-post-type/advanced-settings.php:832
+msgid "Show In Admin Bar"
+msgstr "Afficher dans la barre d’administration"
 
 #: includes/admin/views/acf-post-type/advanced-settings.php:800
 msgid "Custom Meta Box Callback"
@@ -616,6 +726,19 @@ msgstr "Icône de menu"
 msgid "Menu Position"
 msgstr "Position du menu"
 
+#: includes/admin/views/acf-post-type/advanced-settings.php:742
+msgid "Admin Menu Parent"
+msgstr "Parent du menu d’administration"
+
+#: includes/admin/views/acf-post-type/advanced-settings.php:725
+msgid "Dashicon class name"
+msgstr "Nom de la classe du Dashicon"
+
+#: includes/admin/views/acf-post-type/advanced-settings.php:713
+#: includes/admin/views/acf-taxonomy/advanced-settings.php:729
+msgid "Show In Admin Menu"
+msgstr "Afficher dans le menu d’administration"
+
 #: includes/admin/views/acf-post-type/advanced-settings.php:699
 #: includes/admin/views/acf-taxonomy/advanced-settings.php:714
 msgid "Show In UI"
@@ -624,6 +747,136 @@ msgstr "Afficher dans l’interface utilisateur"
 #: includes/admin/views/acf-post-type/advanced-settings.php:685
 msgid "A link to a post."
 msgstr "Un lien vers une publication."
+
+#: includes/admin/views/acf-post-type/advanced-settings.php:683
+#: includes/admin/views/acf-taxonomy/advanced-settings.php:698
+msgid "Item Link Description"
+msgstr "Description du lien de l’élément"
+
+#. translators: %s Singular form of post type name
+#: includes/admin/views/acf-post-type/advanced-settings.php:679
+msgid "A link to a %s."
+msgstr "Un lien vers un %s."
+
+#: includes/admin/views/acf-post-type/advanced-settings.php:664
+msgid "Post Link"
+msgstr "Lien de publication"
+
+#. translators: %s Singular form of post type name
+#. translators: %s Singular form of taxonomy name
+#: includes/admin/views/acf-post-type/advanced-settings.php:659
+#: includes/admin/views/acf-taxonomy/advanced-settings.php:674
+msgid "%s Link"
+msgstr "Lien %s"
+
+#: includes/admin/views/acf-post-type/advanced-settings.php:644
+msgid "Post updated."
+msgstr "Publication mise à jour."
+
+#. translators: %s Singular form of post type name
+#: includes/admin/views/acf-post-type/advanced-settings.php:639
+msgid "%s updated."
+msgstr "%s mis à jour."
+
+#: includes/admin/views/acf-post-type/advanced-settings.php:624
+msgid "Post scheduled."
+msgstr "Publication planifiée."
+
+#. translators: %s Singular form of post type name
+#: includes/admin/views/acf-post-type/advanced-settings.php:619
+msgid "%s scheduled."
+msgstr "%s planifié."
+
+#. translators: %s Singular form of post type name
+#: includes/admin/views/acf-post-type/advanced-settings.php:599
+msgid "%s reverted to draft."
+msgstr "%s repassé en brouillon."
+
+#. translators: %s Singular form of post type name
+#: includes/admin/views/acf-post-type/advanced-settings.php:559
+msgid "%s published."
+msgstr "%s publié."
+
+#: includes/admin/views/acf-post-type/advanced-settings.php:544
+msgid "Posts list"
+msgstr "Liste des publications"
+
+#: includes/admin/views/acf-post-type/advanced-settings.php:542
+#: includes/admin/views/acf-taxonomy/advanced-settings.php:636
+msgid "Items List"
+msgstr "Liste des éléments"
+
+#. translators: %s Plural form of post type name
+#. translators: %s Plural form of taxonomy name
+#: includes/admin/views/acf-post-type/advanced-settings.php:539
+#: includes/admin/views/acf-taxonomy/advanced-settings.php:633
+msgid "%s list"
+msgstr "Liste %s"
+
+#: includes/admin/views/acf-post-type/advanced-settings.php:524
+msgid "Posts list navigation"
+msgstr "Navigation dans la liste des publications"
+
+#: includes/admin/views/acf-post-type/advanced-settings.php:522
+#: includes/admin/views/acf-taxonomy/advanced-settings.php:616
+msgid "Items List Navigation"
+msgstr "Liste des éléments de navigation"
+
+#. translators: %s Plural form of post type name
+#. translators: %s Plural form of taxonomy name
+#: includes/admin/views/acf-post-type/advanced-settings.php:519
+#: includes/admin/views/acf-taxonomy/advanced-settings.php:613
+msgid "%s list navigation"
+msgstr "Navigation dans la liste %s"
+
+#: includes/admin/views/acf-post-type/advanced-settings.php:503
+msgid "Filter posts by date"
+msgstr "Filtrer les publications par date"
+
+#: includes/admin/views/acf-post-type/advanced-settings.php:501
+msgid "Filter Items By Date"
+msgstr "Filtrer les éléments par date"
+
+#. translators: %s Plural form of post type name
+#: includes/admin/views/acf-post-type/advanced-settings.php:497
+msgid "Filter %s by date"
+msgstr "Filtrer %s par date"
+
+#: includes/admin/views/acf-post-type/advanced-settings.php:482
+msgid "Filter posts list"
+msgstr "Filtrer la liste des publications"
+
+#. translators: %s Plural form of post type name
+#: includes/admin/views/acf-post-type/advanced-settings.php:476
+msgid "Filter %s list"
+msgstr "Filtrer la liste %s"
+
+#. translators: %s Singular form of post type name
+#: includes/admin/views/acf-post-type/advanced-settings.php:455
+msgid "Uploaded to this %s"
+msgstr "Téléversé sur ce %s"
+
+#. translators: %s Singular form of post type name
+#: includes/admin/views/acf-post-type/advanced-settings.php:434
+msgid "Insert into %s"
+msgstr "Insérer dans %s"
+
+#: includes/admin/views/acf-post-type/advanced-settings.php:419
+msgid "Use as featured image"
+msgstr "Utiliser comme image mise en avant"
+
+#: includes/admin/views/acf-post-type/advanced-settings.php:404
+msgid "Remove featured image"
+msgstr "Retirer l’image mise en avant"
+
+#: includes/admin/views/acf-post-type/advanced-settings.php:374
+msgid "Featured image"
+msgstr "Image mise en avant"
+
+#. translators: %s Singular form of post type name
+#: includes/admin/views/acf-post-type/advanced-settings.php:354
+msgid "%s Attributes"
+msgstr "Attributs des %s"
 
 #. translators: %s Singular form of post type name
 #: includes/admin/views/acf-post-type/advanced-settings.php:334
@@ -756,6 +1009,10 @@ msgstr "Un résumé descriptif du type de publication."
 msgid "Add Custom"
 msgstr "Ajouter une personalisation"
 
+#: includes/admin/views/acf-post-type/advanced-settings.php:38
+msgid "Enable various features in the content editor."
+msgstr "Activez diverses fonctionnalités dans l’éditeur de contenu."
+
 #: includes/admin/views/acf-post-type/advanced-settings.php:27
 msgid "Post Formats"
 msgstr "Formats des publications"
@@ -779,6 +1036,13 @@ msgstr "Rien à importer"
 #: includes/admin/tools/class-acf-admin-tool-import.php:287
 msgid ". The Custom Post Type UI plugin can be deactivated."
 msgstr ". L’extension Custom Post Type UI peut être désactivée."
+
+#. translators: %d - number of items imported from CPTUI
+#: includes/admin/tools/class-acf-admin-tool-import.php:278
+msgid "Imported %d item from Custom Post Type UI -"
+msgid_plural "Imported %d items from Custom Post Type UI -"
+msgstr[0] "Élément %d importé à partir de l’interface utilisateur de type de publication personnalisée -"
+msgstr[1] "Éléments %d importés à partir de l’interface utilisateur de type de publication personnalisée -"
 
 #: includes/admin/tools/class-acf-admin-tool-export.php:362
 msgid "Export"
@@ -875,6 +1139,13 @@ msgstr "Pages"
 msgid "Create new taxonomy"
 msgstr "Créer une nouvelle taxonomie"
 
+#. translators: %s post type name
+#. translators: %s taxonomy name
+#: includes/admin/post-types/admin-post-type.php:78
+#: includes/admin/post-types/admin-taxonomy.php:78
+msgid "Add fields to %s"
+msgstr "Ajouter des champs à %s"
+
 #: includes/admin/post-types/admin-post-type.php:55
 msgid "Post type scheduled for."
 msgstr "Type de publication planifié pour."
@@ -937,6 +1208,10 @@ msgstr "Visibilité"
 #: includes/acf-internal-post-type-functions.php:507
 msgid "Labels"
 msgstr "Libellés"
+
+#: includes/admin/views/acf-taxonomy/advanced-settings.php:438
+msgid "Choose From Most Used"
+msgstr "Choisir parmi les plus utilisés"
 
 #: includes/admin/views/acf-taxonomy/advanced-settings.php:1207
 msgid "Optional custom controller to use instead of `WP_REST_Terms_Controller `."
@@ -1404,6 +1679,83 @@ msgstr "Un seul mot, aucun espace. Tirets bas et tirets autorisés."
 #: includes/admin/views/acf-taxonomy/advanced-settings.php:71
 msgid "Term Slug"
 msgstr "Slug du terme"
+
+#: includes/admin/views/acf-taxonomy/advanced-settings.php:439
+msgid "Assigns the 'choose from most used' text used in the meta box when JavaScript is disabled. Only used on non-hierarchical taxonomies."
+msgstr "Attribue le texte « choisir parmi les plus utilisés » utilisé dans la méta-zone lorsque JavaScript est désactivé. Utilisé uniquement sur les taxonomies non hiérarchiques."
+
+#: includes/admin/views/acf-post-type/advanced-settings.php:714
+#: includes/admin/views/acf-taxonomy/advanced-settings.php:730
+msgid "Admin editor navigation in the sidebar menu."
+msgstr "Navigation de l’éditeur d’administration dans le menu de la colonne latérale."
+
+#: includes/admin/admin-internal-post-type.php:314
+msgid "Select one or many field groups..."
+msgstr "Sélectionner un ou plusieurs groupes de champs…"
+
+#. translators: %s Singular form of taxonomy name
+#: includes/admin/views/acf-taxonomy/advanced-settings.php:269
+msgid "New %s Name"
+msgstr "Nom du nouveau %s"
+
+#: includes/admin/views/acf-taxonomy/advanced-settings.php:173
+msgid "Assigns the all items text."
+msgstr "Assigne le texte « Tous les éléments »."
+
+#: includes/admin/views/acf-taxonomy/advanced-settings.php:154
+msgid "Assigns the menu name text."
+msgstr "Assigne le texte du nom du menu."
+
+#: includes/admin/views/acf-post-type/advanced-settings.php:622
+msgid "Item Scheduled"
+msgstr "Élément planifié"
+
+#: includes/admin/views/acf-post-type/advanced-settings.php:642
+msgid "Item Updated"
+msgstr "Élément mis à jour"
+
+#: includes/admin/views/acf-post-type/advanced-settings.php:602
+msgid "Item Reverted To Draft"
+msgstr "Élément repassé en brouillon"
+
+#: includes/admin/views/acf-post-type/advanced-settings.php:584
+msgid "Post published privately."
+msgstr "Publication publiée en privé."
+
+#: includes/admin/views/acf-post-type/advanced-settings.php:582
+msgid "Item Published Privately"
+msgstr "Élément publié en privé"
+
+#. translators: %s Singular form of post type name
+#: includes/admin/views/acf-post-type/advanced-settings.php:579
+msgid "%s published privately."
+msgstr "%s publié en privé."
+
+#: includes/admin/views/acf-post-type/advanced-settings.php:563
+msgid "In the editor notice after publishing an item."
+msgstr "Dans la notification de l’éditeur après la publication d’un élément."
+
+#: includes/admin/views/acf-post-type/advanced-settings.php:562
+msgid "Item Published"
+msgstr "Élément publié"
+
+#: includes/admin/views/acf-post-type/advanced-settings.php:480
+msgid "Filter Items List"
+msgstr "Filtrer la liste des éléments"
+
+#: includes/admin/views/acf-post-type/advanced-settings.php:662
+#: includes/admin/views/acf-taxonomy/advanced-settings.php:677
+msgid "Item Link"
+msgstr "Lien de l’élément"
+
+#: includes/admin/views/acf-post-type/advanced-settings.php:852
+#: includes/admin/views/acf-taxonomy/advanced-settings.php:850
+msgid "Allow items to be added to menus in the 'Appearance' > 'Menus' screen. Must be turned on in 'Screen options'."
+msgstr "Autorisez l’ajout d’éléments aux menus dans l’écran « Apparence » > « Menus ». Doit être activé dans « Options de l’écran »."
+
+#: includes/admin/views/acf-taxonomy/advanced-settings.php:481
+msgid "Assigns the text displayed when clicking the 'choose from most used' text in the taxonomy meta box when no tags are available, and assigns the text used in the terms list table when there are no items for a taxonomy."
+msgstr "Assigne le texte affiché lorsque vous cliquez sur le texte « choisir parmi les plus utilisés » dans la boîte de méta de taxonomie lorsqu’aucune étiquette n’est disponible, et affecte le texte utilisé dans le tableau de liste des termes lorsqu’il n’y a pas d’élément pour une taxonomie."
 
 #: includes/admin/post-types/admin-field-group.php:96
 #: assets/build/js/acf-field-group.js:1661
@@ -4264,6 +4616,49 @@ msgstr "Sélectionnez les éléments que vous souhaitez exporter, puis choisisse
 #: includes/fields/class-acf-field-checkbox.php:174
 msgid "Toggle All"
 msgstr "Tout (dé)sélectionner"
+
+#: includes/fields/class-acf-field-button-group.php:194
+#: includes/fields/class-acf-field-page_link.php:538
+#: includes/fields/class-acf-field-post_object.php:455
+#: includes/fields/class-acf-field-radio.php:238
+#: includes/fields/class-acf-field-select.php:435
+#: includes/fields/class-acf-field-taxonomy.php:789
+#: includes/fields/class-acf-field-user.php:107
+msgid "Allow Null"
+msgstr "Autoriser une valeur vide"
+
+#: includes/fields/class-acf-field-wysiwyg.php:396
+msgid "Delay Initialization"
+msgstr "Retarder l’initialisation"
+
+#: includes/admin/views/acf-field-group/options.php:107
+msgid "Label Placement"
+msgstr "Emplacement des libellés"
+
+#: includes/fields/class-acf-field-file.php:290
+#: includes/fields/class-acf-field-image.php:316
+msgid "Allowed File Types"
+msgstr "Types de fichiers autorisés"
+
+#: includes/fields/class-acf-field-user.php:55
+msgid "Filter by Role"
+msgstr "Filtrer par rôle"
+
+#: includes/admin/views/acf-field-group/options.php:124
+msgid "Instruction Placement"
+msgstr "Emplacement des instructions"
+
+#: includes/fields/class-acf-field-relationship.php:683
+msgid "Maximum Posts"
+msgstr "Maximum de publications"
+
+#: includes/fields/class-acf-field-relationship.php:673
+msgid "Minimum Posts"
+msgstr "Minimum de publications"
+
+#: includes/fields/class-acf-field-wysiwyg.php:385
+msgid "Show Media Upload Buttons"
+msgstr "Afficher les boutons de téléversement de médias ?"
 
 #. Plugin Name of the plugin
 #: acf.php:92

@@ -21,6 +21,6 @@
  * @see https://developer.wordpress.org/reference/functions/register_block_type/
  */
 function create_block_wp_exo_block_init() {
-	register_block_type( __DIR__ . '/build' );
+	register_block_type( __DIR__ . '/build/rw1-block' );
 }
 add_action( 'init', 'create_block_wp_exo_block_init' );
