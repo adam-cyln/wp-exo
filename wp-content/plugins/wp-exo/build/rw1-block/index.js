@@ -214,7 +214,7 @@ module.exports = window["wp"]["i18n"];
   \**********************************/
 /***/ ((module) => {
 
-module.exports = JSON.parse('{"$schema":"https://schemas.wp.org/trunk/block.json","apiVersion":3,"name":"wp-exo/rw1-block","version":"0.1.0","title":"WP exo a block","category":"design","icon":"smiley","description":"Example block scaffolded with Create Block tool.","supports":{"html":false},"attributes":{"content":{"type":"string","source":"text","selector":".content"}},"textdomain":"wp-exo","editorScript":"file:./index.js","editorStyle":"file:./index.css","style":"file:./style-index.css","viewScript":"file:./view.js"}');
+module.exports = JSON.parse('{"$schema":"https://schemas.wp.org/trunk/block.json","apiVersion":3,"name":"wp-exo/rw1-block","version":"0.1.0","title":"WP exo a block","category":"design","icon":"smiley","description":"Example block scaffolded with Create Block tool.","supports":{"html":false},"attributes":{"number":{"type":"string","source":"html","selector":".number"},"title":{"type":"string","source":"html","selector":".title"},"chapterSign":{"type":"string","source":"text","selector":".sign","default":"#"},"alignment":{"type":"string"},"textColor":{"type":"string"},"backgroundColor":{"type":"string"},"withRadius":{"type":"boolean","default":false},"radius":{"type":"integer","default":8}},"textdomain":"wp-exo","editorScript":"file:./index.js","editorStyle":"file:./index.css","style":"file:./style-index.css","viewScript":"file:./view.js"}');
 
 /***/ })
 
