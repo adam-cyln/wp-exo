@@ -1,0 +1,1 @@
+{"version":3,"file":"rw-last-posts/view.js","mappings":";;;;;AAAA;AACAA,OAAO,CAACC,GAAG,CAAE,+CAAgD,CAAC;AAC9D,8B","sources":["webpack://wp-exo/./src/rw-last-posts/view.js"],"sourcesContent":["/* eslint-disable no-console */\nconsole.log( 'Hello World! (from create-block-wp-exo block)' );\n/* eslint-enable no-console */\n"],"names":["console","log"],"sourceRoot":""}

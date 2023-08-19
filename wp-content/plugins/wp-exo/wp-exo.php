@@ -22,5 +22,6 @@
  */
 function create_block_wp_exo_block_init() {
 	register_block_type( __DIR__ . '/build/rw1-block' );
+	register_block_type( __DIR__ . '/build/rw-last-posts' );
 }
 add_action( 'init', 'create_block_wp_exo_block_init' );
