@@ -164,3 +164,4 @@ function my_preview_js()
     wp_enqueue_script('custom_css_preview', 'assets/js/customizer.js', array('customize-preview', 'jquery'));
 }
 add_action('customize_preview_init', 'my_preview_js');
+

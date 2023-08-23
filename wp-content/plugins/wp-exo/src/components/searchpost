@@ -1,0 +1,27 @@
+import { debounce } from 'throttle-debounce'
+import { TextControl } from '@wordpress/components'
+
+function SearchPost({ postType, placeholder, onChange }) {
+
+    // lancer la recherche après 300 millisecondes d'inactivité sur le champ
+    const search = debounce(300, search => {
+        console.log(search) // ce qu'a tapé l'utilisateur
+
+        // Pas de recherche tant qu'il n'y a pas au moins 3 caractères
+        if (search.length < 3) { return }
+
+        // La suite ira ici
+    })
+
+
+    return (
+        <TextControl
+            type="search"
+            placeholder={__("Type a post title", 'wp-exo')}
+            onChange={value => this.search(value)}
+        />
+    )
+
+}
+
+export default SearchPost
