@@ -2,36 +2,35 @@
 
 /*
  * Plugin Name: adam
+ * Text Domain: adam
  */
 
- add_action( 'admin_menu', 'wporg_options_page' );
- function wporg_options_page() {
-     add_menu_page(
-         'Adam',
-         'Adam',
-         'manage_options',
-         'adam',
-         'wporg_options_page_html',
-         '',
-         20
-     );
- }
+ define('CAPACITY_PLUGIN_PATH', plugin_dir_path(__FILE__));
+ require_once CAPACITY_PLUGIN_PATH.'includes/typo.php';
 
- function wporg_options_page_html() {
-    ?>
-    <div class="wrap">
-      <h1><?php echo esc_html( get_admin_page_title() ); ?></h1>
-      <form action="options.php" method="post">
-        <?php
-        // output security fields for the registered setting "wporg_options"
-        settings_fields( 'wporg_options' );
-        // output setting sections and their fields
-        // (sections are registered for "wporg", each field is registered to a specific section)
-        do_settings_sections( 'wporg' );
-        // output save settings button
-        submit_button( __( 'Save Settings', 'textdomain' ) );
-        ?>
-      </form>
-    </div>
-    <?php
+add_action('admin_menu', 'wporg_options_page');
+function wporg_options_page()
+{
+	add_menu_page(
+		'Adam',
+		'Adam',
+		'manage_options',
+		'adam_options',
+		'adam_options_page_html',
+		'dashicons-buddicons-community',
+		3
+	);
+
+	add_submenu_page(
+		'adam_options',
+		'Adam super plugin submenu title',
+		'Typo',
+		'manage_options',
+		'adam_typo',
+		'adam_typo_html'
+	);
+}
+
+function adam_options_page_html (){
+
 }
