@@ -6,7 +6,7 @@
  */
 
  define('CAPACITY_PLUGIN_PATH', plugin_dir_path(__FILE__));
- require_once CAPACITY_PLUGIN_PATH.'includes/typo.php';
+ require_once CAPACITY_PLUGIN_PATH.'includes/styling.php';
 
 add_action('admin_menu', 'wporg_options_page');
 function wporg_options_page()
@@ -23,11 +23,11 @@ function wporg_options_page()
 
 	add_submenu_page(
 		'adam_options',
-		'Adam super plugin submenu title',
-		'Typo',
+		'Styling',
+		'Styling',
 		'manage_options',
-		'adam_typo',
-		'adam_typo_html'
+		'adam_styling',
+		'adam_styling_html'
 	);
 }
 
